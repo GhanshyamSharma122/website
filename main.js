@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabContent = document.querySelector('.tab-content code');
 
     const content = {
-        'Installation': `# Clone and Install\ngit clone https://github.com/shyam/codecli\ncd codecli\nnpm install && npm install -g .\n\n# Run first time\ncodecli`,
+        'One-Line Install': `# Windows PowerShell\ncurl -L https://raw.githubusercontent.com/GhanshyamSharma122/codecli/main/install.ps1 | powershell`,
+        'Manual Install': `# Clone and Install\ngit clone https://github.com/GhanshyamSharma122/codecli\ncd codecli\nnpm install && npm install -g .\n\n# Run first time\ncodecli`,
         'Configuration': `# Configuration\ncodecli config set provider gemini\ncodecli config set model gemini-2.0-flash\n\n# Or use .env\nCODECLI_PROVIDER=azure-openai`,
         'Usage': `# Interactive Mode\ncodecli\n\n# Single Prompt\ncodecli "Refactor this file"\n\n# Resume Session\ncodecli -r <session-id>`
     };

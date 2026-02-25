@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeCLI | The Universal AI Coding Assistant</title>
-    <meta name="description" content="A premium, open-source CLI coding assistant inspired by Claude Code. Use Ollama, Gemini, and Azure OpenAI to supercharge your terminal.">
+    <meta name="description"
+        content="A premium, open-source CLI coding assistant inspired by Claude Code. Use Ollama, Gemini, and Azure OpenAI to supercharge your terminal.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -27,7 +32,8 @@
         <div class="container">
             <div class="badge">v1.0.0 Now Available</div>
             <h1>Coding at the Speed of <span>Thought</span></h1>
-            <p class="subtitle">The ultimate AI partner for your terminal. Inspired by Claude Code, built for everyone. Support for Ollama, Gemini, and Azure OpenAI Student Edition.</p>
+            <p class="subtitle">The ultimate AI partner for your terminal. Inspired by Claude Code, built for everyone.
+                Support for Ollama, Gemini, and Azure OpenAI Student Edition.</p>
             <div class="cta-group">
                 <a href="#install" class="btn btn-primary">Get Started</a>
                 <a href="#features" class="btn btn-secondary">Explore Features</a>
@@ -82,25 +88,30 @@
 
     <section id="achievements" class="achievements">
         <div class="container">
-            <div class="split-layout">
-                <div class="content">
-                    <h2 class="section-title">Built with <span>CodeCLI</span></h2>
-                    <h3>The Simple Interpreter</h3>
-                    <p>CodeCLI isn't just for scripts. It's built for complex engineering. Our "Simple Interpreter" showcase was built entirely through the terminal interface.</p>
-                    <ul class="check-list">
-                        <li>Rust-based performance</li>
-                        <li>Advanced control flow & OOP support</li>
-                        <li>Exception handling & I/O built-in</li>
-                    </ul>
-                    <a href="https://github.com/GhanshyamSharma122/an_interpreter_by_codecli" class="btn btn-outline">View on GitHub</a>
-                </div>
-                <div class="visual">
-                    <div class="interpreter-preview">
-                        <pre><code>let x = 10;
-while (x > 0) {
-  print("Count: " + x);
-  x = x - 1;
+            <div class="interpreter-section">
+                <div class="split-layout">
+                    <div class="content">
+                        <h2 class="section-title">Built with <span>CodeCLI</span></h2>
+                        <h3>The Simple Interpreter</h3>
+                        <p>CodeCLI isn't just for scripts. It's built for complex engineering. Our "Simple Interpreter"
+                            showcase was built entirely through the terminal interface.</p>
+                        <ul class="check-list">
+                            <li>Rust-based performance</li>
+                            <li>Advanced control flow & OOP support</li>
+                            <li>Exception handling & I/O built-in</li>
+                        </ul>
+                        <a href="https://github.com/GhanshyamSharma122/an_interpreter_by_codecli"
+                            class="btn btn-outline" style="border-color: var(--accent); color: var(--accent);">View on
+                            GitHub</a>
+                    </div>
+                    <div class="visual">
+                        <div class="interpreter-preview">
+                            <pre><code><span class="keyword">let</span> x = <span class="number">10</span>;
+<span class="keyword">while</span> (x > <span class="number">0</span>) {
+  <span class="keyword">print</span>(<span class="string">"Count: "</span> + x);
+  x = x - <span class="number">1</span>;
 }</code></pre>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -112,18 +123,14 @@ while (x > 0) {
             <h2 class="section-title">Get <span>Started</span></h2>
             <div class="terminal-guide">
                 <div class="tabs">
-                    <button class="tab active">Installation</button>
+                    <button class="tab active">One-Line Install</button>
+                    <button class="tab">Manual Install</button>
                     <button class="tab">Configuration</button>
                     <button class="tab">Usage</button>
                 </div>
                 <div class="tab-content">
-                    <pre><code># Clone and Install
-git clone https://github.com/GhanshyamSharma122/codecli
-cd codecli
-npm install && npm install -g .
-
-# Run first time
-codecli</code></pre>
+                    <pre><code># Windows PowerShell
+curl -L https://raw.githubusercontent.com/GhanshyamSharma122/codecli/main/install.ps1 | powershell</code></pre>
                 </div>
             </div>
         </div>
@@ -148,4 +155,5 @@ codecli</code></pre>
 
     <script src="main.js"></script>
 </body>
+
 </html>
